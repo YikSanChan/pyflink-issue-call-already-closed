@@ -1,0 +1,10 @@
+name: pyflink-issue-call-already-closed-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - scikit-learn=0.23.2
+  - pip
+  - pip:
+    - -r file:requirements.txt
