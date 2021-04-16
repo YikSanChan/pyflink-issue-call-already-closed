@@ -356,7 +356,7 @@ $ python main.py
 7> +I(1390365,5,0,0,289,2,0,1,1409,2,82,0,0)
 7> +I(1403227,2,1,5,52,0,25,0,3,2,20,0,0)
 Traceback (most recent call last):
-  File "batch_prediction.py", line 109, in <module>
+  File "main.py", line 109, in <module>
     t_env.execute_sql(TRANSFORM_DML).wait()
   File "/usr/local/anaconda3/envs/featflow-ml-env/lib/python3.7/site-packages/pyflink/table/table_result.py", line 76, in wait
     get_method(self._j_table_result, "await")()
